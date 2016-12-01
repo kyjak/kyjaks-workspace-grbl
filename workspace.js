@@ -1,5 +1,5 @@
 /* global cpdefine chilipeppr cprequire */
-cprequire_test(["inline:com-chilipeppr-workspace-grbl"], function(ws) {
+cprequire_test(["inline:com-chilipeppr-workspace-grbl-kyjak"], function(ws) {
 
     console.log("initting workspace");
 
@@ -38,9 +38,9 @@ cpdefine("inline:com-chilipeppr-workspace-grbl", ["chilipeppr_ready"], function(
         /**
          * The ID of the widget. You must define this and make it unique.
          */
-        id: "com-chilipeppr-workspace-grbl", // Make the id the same as the cpdefine id
-        name: "Workspace / grbl", // The descriptive name of your widget.
-        desc: `A ChiliPeppr Workspace grbl.`,
+        id: "com-chilipeppr-workspace-grbl-kyjak", // Make the id the same as the cpdefine id
+        name: "Kyjak's Workspace / grbl", // The descriptive name of your widget.
+        desc: `A Kyjak's fork of ChiliPeppr Workspace grbl.`,
         url: "(auto fill by runme.js)", // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
         fiddleurl: "(auto fill by runme.js)", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
         githuburl: "(auto fill by runme.js)", // The backing github repo
