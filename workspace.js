@@ -241,7 +241,7 @@ cpdefine("inline:com-chilipeppr-workspace-grbl-kyjak", ["chilipeppr_ready"], fun
 
 
             chilipeppr.load(
-              "#camera-instance",
+              "#com-chilipeppr-widget-cam",
               "http://raw.githubusercontent.com/chilipeppr/widget-cam/master/auto-generated-widget.html",
               function() {
                 // Callback after widget loaded into #myDivWidgetCam
